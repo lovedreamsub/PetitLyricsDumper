@@ -131,5 +131,12 @@ dmypy.json
 # macOS Junk
 .DS_Store
 
-# clientAppI
+# clientAppId
 clientAppId
+
+# Test files
+tmp/
+temp*
+
+# VS Code
+.vscode/
