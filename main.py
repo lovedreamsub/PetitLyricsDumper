@@ -4,8 +4,6 @@ from bs4 import BeautifulSoup
 import requests
 import base64
 
-syncLyricXml = ''
-
 def getLyrics(lId=2605732):
     clientAppId = open('clientAppId').readline().strip('\n')
     lyricsId = lId
